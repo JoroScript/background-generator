@@ -15,7 +15,7 @@ function setGradient(){
     console.log(color1.value);
     txt1.style.color=color1.value;
     txt2.style.color=color2.value;
-    body.style.background="linear-gradient(to right, " +color1.value+", "+color2.value+")";
+    body.style.background="linear-gradient(to left, " +color1.value+", "+color2.value+")";
     
     css.textContent=body.style.background+";";
 }
